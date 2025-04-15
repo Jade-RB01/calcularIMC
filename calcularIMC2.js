@@ -6,6 +6,7 @@ const pesoUsuario = 99;
 const alturaUsuario = 1.53;
 const imcUsuario = calcularIMC(pesoUsuario, alturaUsuario);
 
+//CONDICIONAL PARA VALORES DE IMC
 if(imcUsuario<18.5)
 {
     console.log("El valor del IMC es: (azul claro) " + imcUsuario.toFixed(2) + " siendo peso insuficiente");
